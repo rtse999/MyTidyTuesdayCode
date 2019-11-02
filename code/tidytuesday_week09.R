@@ -28,7 +28,7 @@ devtools::session_info()
 # ------------------------------------------------------------------------
 # Read Week 9 Data
 # ------------------------------------------------------------------------
-week9_comic_characters <- read_csv("data/week9_comic_characters.csv")
+week9_comic_characters <- read_csv("data/2018-05-29/week9_comic_characters.csv")
 glimpse(week9_comic_characters)
 skim(week9_comic_characters)
 
